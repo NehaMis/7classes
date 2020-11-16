@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.sidebar {
+    height: 100%;
+    width: 15%;
+    background-color: #303046;
+    color: #707f8f;
+}
+
+#right-panel {
+    height: 100%;
+    width: 85%;
+    padding: 10px;
+}
+
+#wrapper {
+    display: inline-flex;
+    width: 100%;
+    height: 88.6vh;
+}
+
+.tabs {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.tabs:hover {
+    color: blue;
+}
+
+.activeTab {
+    border-bottom: 3px solid blue;
+    color: blue;
+}
+
+th {
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+td {
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.successStatus {
+    background-color: #00d34b;
+}
+
+.failedStatus {
+    background-color: #d92222;
+}
+
+.successStatus,
+.failedStatus {
+    border-radius: 15px;
+    padding: 3px 2px;
+    color: white;
+    text-align: center;
+}
+
+
+.btn-success.dropdown-toggle {
+  background-color: white !important;
+  color: black !important;
+  border: 1px solid #ced4da !important;
+}
+
+#login-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
