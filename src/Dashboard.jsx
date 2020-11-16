@@ -4,15 +4,7 @@ import fire from './config/fire';
 class Dashboard extends Component {
     constructor(props){
         super(props);
-             this.state= {
-                
-             }
-        
     }
-  logout() {
-    fire.auth().signOut();
-  }
-
     render(){
         return(
           <div>

@@ -8,7 +8,6 @@ body {
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
-
 .sidebar {
     height: 100%;
     width: 15%;
@@ -68,17 +67,16 @@ td {
     text-align: center;
 }
 
-
 .btn-success.dropdown-toggle {
-  background-color: white !important;
-  color: black !important;
-  border: 1px solid #ced4da !important;
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid #ced4da !important;
 }
 
 #login-bg {
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
 }

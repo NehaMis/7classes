@@ -1,6 +1,5 @@
 import React , { Component } from 'react';
 import Routing from './Routing.jsx';
-
 export default class RightPanel extends Component {
     
 	render() {
@@ -9,7 +8,6 @@ export default class RightPanel extends Component {
 				<div id="content">
 					<Routing />             
 				</div>
-				
 			</div>
 		);  
 	}

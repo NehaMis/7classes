@@ -46,13 +46,7 @@ export default class LeftPanel extends Component {
     
 	render() {
 		return (
-			<ul className="navbar-nav sidebar accordion" id="accordionSidebar" >
-				{/* <a className="logo sidebar-brand d-flex align-items-center justify-content-left" href="/" style={{height: '3.646vw',backgroundColor:'#171b36'}}>
-					<div >
-						<img className='logo'src={require('./img/vendekin_icon.svg')}alt=''/>
-					</div>
-				<p className ="font-weight-light vText">v<span className ="font-weight-bold logoText">Netra</span></p>
-				</a> */}
+			<ul className="navbar-nav sidebar" id="accordionSidebar" >
                 {this.state.links.map(links =>{
                     return this.renderMenus(links)
                 })}

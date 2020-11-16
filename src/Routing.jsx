@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import { Route, Switch } from "react-router-dom";
 import { withRouter } from "react-router";
-
-import Dashboard from "./Dashboard";
 import Transactions from "./Transactions";
 import Logout from "./Logout";
 

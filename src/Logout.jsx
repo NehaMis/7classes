@@ -1,18 +1,16 @@
 
 import React, { Component } from "react";
 import { withRouter } from "react-router";
-import fire from "./config/fire";
+import firebase from "./config/fire";
 export class NavBar extends Component {
     constructor(props) {
         super(props);
     }
-
     componentDidMount(){
-        fire.auth().signOut().then(()=>{
+        firebase.auth().signOut().then(()=>{
             this.props.history.push("/");
         });
     }
-
     render() {
         return (
             <div>
