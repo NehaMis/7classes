@@ -1,14 +1,10 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was developed by Neha Mishra for 7classes
 
 ## Available Scripts
 
-In the project directory, install packages:
-
-### `npm install`
-
-You can run to start project:
+In the project directory, you can run:
 
 ### `npm start`
 

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { NavLink } from "react-router-dom";
-// import SidebarTogglerForLargeScreen from './sidebar_toggler_for_large_screen.jsx';
 
 export default class LeftPanel extends Component {
 
